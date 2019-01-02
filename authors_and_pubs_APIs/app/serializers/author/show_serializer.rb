@@ -1,7 +1,6 @@
-class Author::ShowSerializer
-    include FastJsonapi::ObjectSerializer
-    set_type :author
-    
+class Author::ShowSerializer < AuthorSerializer
+      
     attributes :name, :email, :date_of_birth
-  end
+    has_many :publications
+end
   
