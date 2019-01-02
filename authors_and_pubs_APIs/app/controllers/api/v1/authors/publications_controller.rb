@@ -1,2 +1,3 @@
-class API::V1::Authors::PublicationsController < ApplicationController
+class Api::V1::Authors::PublicationsController < ApplicationController
+
 end

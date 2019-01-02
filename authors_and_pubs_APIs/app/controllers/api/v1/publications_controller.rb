@@ -1,2 +1,2 @@
-class API::V1::PublicationsController < ApplicationController
+class Api::V1::PublicationsController < ApplicationController
 end
